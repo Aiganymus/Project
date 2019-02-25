@@ -2,5 +2,5 @@
 Our team members:
 - Aiym Raikhanova
 - Dariga Akhmetova 
-- Kuat Abyulkassymov
+- Kuat Abylkassymov
 - Aiganym Zhandaulet
