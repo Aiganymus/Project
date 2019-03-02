@@ -1,46 +1,76 @@
-body {
-  font-size: 15px;
-  border:1px solid #b3b3b3;
+.home-inner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./bg.jpeg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
-h1 {
-  font-size: 15px;
-}
-.container {
-  font-size: 10px;
-  margin: 20px;
-  text-align: center;
-}
-.head {
-  height: 100px;
-  background: indianred;
-}
-.btn {
-  height: 30px;
+
+.home-inner::after {
+  content:'';
+  background: rgba(0,0,0, 0.4);
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+
 }
 .btn-div {
-  display: flex;
-  flex-direction: column;
+  margin: 5px;
 }
-.log-in {
-  display: flex;
-  flex-direction: column;
-}
-.img {
-  display: none;
-}
-.log {
-  display: flex;
-  flex-direction: column;
-}
-@media only screen and (min-width:700px){
-  .container {
-    margin-left: 100px;
-    width: 50%;
-    margin: auto;
-  }
 
-  .img {
-    width: 100px;
-    height: 200px;
-  }
+.navbar {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.main h1 {
+  color:black;
+  font-size: 1rem;
+}
+.main h2 {
+  color:black;
+  font-size: 2rem;
+  font-family: 
+}
+.main p {
+  color:black;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.container{
+  margin: 10px;
+}
+.login_btn {
+			width: 100%;
+			background: #c0392b !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+
+#red h2{
+  color: indianred;
+}
+footer {
+  padding: 3rem 1rem;
 }
