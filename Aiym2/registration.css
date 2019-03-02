@@ -1,14 +1,17 @@
 .home-inner {
   width: 100%;
   height: 100vh;
-  background-image: url(./bg.jpeg);
-  background-size: cover;
+  background-image: url(./food.jpeg);
+/*  background-size: cover;*/
   background-position: center center;
   position: relative;
 }
+h5 {
+  color: white;
+}
 
 .home-inner::after {
-  content:'';
+
   background: rgba(0,0,0, 0.4);
   position: absolute;
   top:0;
@@ -19,10 +22,12 @@
 }
 .btn-div {
   margin: 5px;
+  color: white;
 }
 
 .navbar {
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: indianred;
+  position: static;
 }
 
 .landing {
@@ -39,6 +44,7 @@
   transform: translate(-50%, -50%);
   padding: 1.5rem;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main h1 {
@@ -52,8 +58,9 @@
 }
 .main p {
   color:black;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: lighter;
+  font-family: 'Lobster';
 }
 .container{
   margin: 10px;
@@ -75,6 +82,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.container{
+  margin-top: 10px;
 }
 #red h2{
   color: indianred;
