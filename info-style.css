@@ -1,0 +1,89 @@
+#carouselExampleIndicators {
+    width: 450px;
+}
+
+.carousel-item > div {
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.main {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.title, .rating {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex: 1 1;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.reviews {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.profile-picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.review {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.profile {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1;
+}
+
+.text {
+    flex: 2 1;
+}
+
+@media all and (max-width: 700px) {   
+    #carouselExampleIndicators {
+        width: 90%;
+    } 
+    
+    .carousel-item > div {
+        min-height: 300px;
+    }
+
+    .main {
+        justify-content: center;
+    }
+
+    .review {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile {
+        margin-bottom: 10px;
+    }
+}
