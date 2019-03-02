@@ -87,3 +87,36 @@
         margin-bottom: 10px;
     }
 }
+
+body {
+    padding-top: 4%;
+}
+
+
+.navbar {
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+footer {
+    padding: 3rem 1rem;
+}
+
+.flex-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        padding-top: 30%;
+    }
+}
+  

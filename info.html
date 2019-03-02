@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/info-style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="aiganym/styles/info-style.css">
+        <!-- <link rel="stylesheet" href="kuat/styles/style.css"> -->
+        <link rel="stylesheet" href="kuat/styles/icons.css">
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <html>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Logo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign in</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
         <div class="title">Базилик</div>
         <div class="rating">Rating</div>
         <div class="main">
@@ -23,7 +48,9 @@
                     <div>Laurel Heights</div>
                 </div>
                 <div class="btn">
-                    <button>Оставить отзыва</button>
+                    <button>
+                        <a href="review.html">Оставить отзыва</a>
+                    </button>
                 </div>
             </div>        
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -34,13 +61,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="d-block w-100" style="background-image: url(images/chim.jpg);"></div>
+                        <div class="d-block w-100" style="background-image: url(aiganym/images/chim.jpg);"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-block w-100" style="background-image: url(images/hobi.jpg);"></div>
+                        <div class="d-block w-100" style="background-image: url(aiganym/images/hobi.jpg);"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-block w-100" style="background-image: url(images/jin.jpg);"></div>
+                        <div class="d-block w-100" style="background-image: url(aiganym/images/jin.jpg);"></div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -56,7 +83,7 @@
         <div class="reviews">
             <div class="review">
                 <div class="profile">
-                    <div class="profile-picture" style="background-image: url(images/joonie.jpg)"></div>
+                    <div class="profile-picture" style="background-image: url(aiganym/images/joonie.jpg)"></div>
                     <div class="contact">
                         <div class="name">Санек</div>
                     </div>
@@ -77,5 +104,38 @@
             </div>
         </div>
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10274.366801789123!2d76.94696603379708!3d43.257603086462304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e96bac39743%3A0x9f14710cf9555993!2z0JHRg9C60LzQtdC60LXRgNGB0LrQuNC5INCa0LvRg9CxICIxOjAiLiDQkdGD0LrQvNC10LrQtdGA0YHQutCw0Y8g0LrQvtC90YLQvtGA0LAgVEVOTklTSS5LWg!5e0!3m2!1sru!2skz!4v1551469073930" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Subscribe to our newsletter</p>
+                        <form class="form-inline">
+                            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                            <div class="input-group mb-2">
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class='list-group'></ul>
+                            <li class="list-group-item"> <a href="#">О нас</a></li>
+                            <li class="list-group-item"> <a href="#">Помощь и обратная связь</a></li>
+                        </ul>
+                        <div class='social mt-5'>
+                            <p>
+                            Мы в соц. сетях
+                            </p>
+                            <ul class="list-group list-group-horizontal flex-list">
+                                <li class='list-group-item'><a href="#" class="icoInstgram" title="Facebook"><i class="fa fa-instagram"></i></a></li>
+                                <li class='list-group-item'><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li class='list-group-item'><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google"></i></a></li>
+                                <li class='list-group-item'><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
