@@ -19,10 +19,12 @@
 }
 .btn-div {
   margin: 5px;
+  color: white;
 }
 
 .navbar {
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: indianred;
+  position: static;
 }
 
 .landing {
@@ -48,7 +50,7 @@
 .main h2 {
   color:black;
   font-size: 2rem;
-  font-family: 
+  font-family:
 }
 .main p {
   color:black;

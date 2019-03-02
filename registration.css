@@ -6,6 +6,9 @@
   background-position: center center;
   position: relative;
 }
+h5 {
+  color: white;
+}
 
 .home-inner::after {
   content:'';
@@ -19,10 +22,12 @@
 }
 .btn-div {
   margin: 5px;
+  color: white;
 }
 
 .navbar {
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: indianred;
+  position: static;
 }
 
 .landing {
@@ -75,6 +80,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.container{
+  margin-top: 10px;
 }
 #red h2{
   color: indianred;
